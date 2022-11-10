@@ -1,3 +1,38 @@
+# Inndodeed Assignment
+This is a car website. Here data comes through carsAPI and show all details on information section. Users can search or filter car by bodyType and modelName.
+
+# Live URL : https://adorable-pithivier-0f93a1.netlify.app/
+# Tech Stack : ReactJS
+## Feature
+  * Responsive
+  * Slider
+  * Searchbar Implementation
+  * Filter by modelName
+  * Show specific car details
+
+# Screenshots
+## Slider 
+  ![Screenshot (154)](https://user-images.githubusercontent.com/69181889/201039593-6102a9d7-1c9c-48b7-9d54-7124657a6452.png)
+## Searchbar and filter 
+  ![Screenshot (158)](https://user-images.githubusercontent.com/69181889/201039747-e5a13f0f-267e-4d3c-90f1-57a7894a77c6.png)
+## All Cars
+  ![Screenshot (156)](https://user-images.githubusercontent.com/69181889/201039912-1ae17196-aead-477e-a005-3d8124391b52.png)
+## Specific Details of car
+  ![Screenshot (159)](https://user-images.githubusercontent.com/69181889/201039988-cc3cab00-c74e-4c1a-b33f-8714722310ca.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
