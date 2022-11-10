@@ -1,8 +1,8 @@
 # Inndodeed Assignment
 This is a car website. Here data comes through carsAPI and show all details on information section. Users can search or filter car by bodyType and modelName.
 
-# Live URL : https://adorable-pithivier-0f93a1.netlify.app/
-# Tech Stack : ReactJS
+## Live URL : https://adorable-pithivier-0f93a1.netlify.app/
+## Tech Stack : ReactJS
 ## Feature
   * Responsive
   * Slider
