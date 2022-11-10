@@ -1,38 +1,165 @@
-.App {
-  text-align: center;
+/* card style */
+.card{
+    width: 400px;
+    height: 400px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 30px;
+    background-color: #ffffff;
+}
+.card_container{
+    width: 100%;
+    height: 100%;
+}
+.card_body{
+    width: 100%;
+    height: 300px;
+}
+.image img{
+    width: 100%;
+}
+.sub-title{
+    display: flex;
+}
+.model{
+    font-weight: 700;
+    margin-right: 10px;
+}
+.title, .bodytype{
+    color: grey;
+}
+.card_footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.learn, .shop{
+    color: #0099e5;
+    cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Header */
+.cars-container{
+    width: 100%;
+    height: auto;
+}
+.all-cars{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.filter{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 40px 0px;
+}
+.dropdown{
+    height: auto;
+    display: flex;
+    align-items: center;
+
+}
+.select select{
+    width: 100%;
+    padding: 20px;
+    outline: none;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.search-bar{
+    width: 50%;
+    height: auto;
+    
+}
+.search-bar input{
+    width: 100%;
+    padding: 20px;
+    outline: none;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* show details */
+.cars-details{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.car-image{
+    width: 50%;
+    height: auto;
+}
+.car-image img{
+    width: 100%;
+    margin: 50px;
+}
+.about{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-details{
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+}
+.about-title{
+    font-weight: 700;
+}
+.buy-button{
+    width: 200px;
+    height: 80px;
+    font-size: 50px;
+    background-color: #008eaa;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media only screen and (max-width: 600px) {
+    .filter{
+        flex-direction: column;
+    }
+    .search-bar{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    .dropdown{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cars-details{
+       flex-direction: column;
+    }
+    .car-image{
+        width: 100%;
+        height: auto;
+    }
+    .about{
+        width: 100%;
+    }
+    .about-details{
+        width: 100%;
+    }
+    .car-image img{
+        width: 100%;
+        margin: 0;
+    }
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
